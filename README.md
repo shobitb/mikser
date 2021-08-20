@@ -54,4 +54,11 @@ Please send your jobcoins to 0cae1ca5ad804aa9832c443ed6f7a29c for mixing
 [pool-1-thread-2] INFO Mixer - Scheduled payout for uno with 4 sec delay
 [pool-1-thread-2] INFO Mixer - Scheduled payout for dos with 9 sec delay
 [pool-1-thread-1] INFO PayoutHandler - Moved 6.9650 jobcoins from uno to bWlrc2VyaG91c2VhZGRyZXNz 
-[pool-1-thread-3] INFO PayoutHandler - Moved 2.9850 jobcoins from dos to bWlrc2VyaG91c2VhZGRyZXNz 
+[pool-1-thread-3] INFO PayoutHandler - Moved 2.9850 jobcoins from dos to bWlrc2VyaG91c2VhZGRyZXNz
+```
+
+## Notes
+
+- User input validation is not currently built-in. Payout distribution is expected to add up to 1 (i.e., 100%).
+- The clearance, fee, and payout transactions are not atomic and failures are not handled. Use at your own risk ;)
+- The mixer will stop processing the deposit address after one hour of providing the user with the deposit address.
