@@ -53,8 +53,8 @@ Please send your jobcoins to 0cae1ca5ad804aa9832c443ed6f7a29c for mixing
 [pool-1-thread-2] INFO Mixer - Moved 9.950 jobcoins from depositAddress = 0cae1ca5ad804aa9832c443ed6f7a29c to house, with 0.050 jobcoins in fees
 [pool-1-thread-2] INFO Mixer - Scheduled payout for uno with 4 sec delay
 [pool-1-thread-2] INFO Mixer - Scheduled payout for dos with 9 sec delay
-[pool-1-thread-1] INFO PayoutHandler - Moved 6.9650 jobcoins from uno to bWlrc2VyaG91c2VhZGRyZXNz 
-[pool-1-thread-3] INFO PayoutHandler - Moved 2.9850 jobcoins from dos to bWlrc2VyaG91c2VhZGRyZXNz
+[pool-1-thread-1] INFO PayoutHandler - Moved 6.9650 jobcoins from bWlrc2VyaG91c2VhZGRyZXNz to uno uno 
+[pool-1-thread-3] INFO PayoutHandler - Moved 2.9850 jobcoins from bWlrc2VyaG91c2VhZGRyZXNz to dos
 ```
 
 ## Notes
